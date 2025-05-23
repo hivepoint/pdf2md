@@ -1,6 +1,6 @@
 {
-  "name": "@opendocsg/pdf2md",
-  "version": "0.2.1",
+  "name": "@hivepoint/pdf2md",
+  "version": "1.0.0",
   "description": "A PDF to Markdown Converter",
   "main": "lib/pdf2md.js",
   "types": "types/pdf2md.d.ts",
@@ -24,19 +24,20 @@
     "Markdown",
     "Converter"
   ],
-  "author": "Open Government Products, Government Technology Agency of Singapore (https://open.gov.sg)",
+  "author": "Hivepoint",
   "contributors": [
-    "Johannes Zillmann"
+    "Johannes Zillmann",
+    "Kingston Duffie"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/opendocsg/pdf2md"
+    "url": "https://github.com/hivepoint/pdf2md"
   },
   "dependencies": {
     "enumify": "^1.0.4",
     "minimist": "^1.2.5",
-    "unpdf": "^0.12.1"
+    "unpdf": "^1.0.5"
   },
   "devDependencies": {
     "@opengovsg/eslint-config-opengovsg": "^1.0.6",
